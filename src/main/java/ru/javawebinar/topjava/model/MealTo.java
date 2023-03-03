@@ -33,6 +33,7 @@ public class MealTo {
 
     public boolean isExcess() {
         return excess;
+
     }
 
     public MealTo(LocalDateTime dateTime, String description, int calories, boolean excess) {
